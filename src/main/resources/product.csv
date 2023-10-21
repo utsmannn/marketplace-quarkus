@@ -1,0 +1,121 @@
+id,name,description,category,price,rating,discount
+1,"Stylish Leather Handbag","Elegant leather handbag with a classic design. The perfect accessory for any occasion.",Fashion,80,4,10
+2,"Smartphone Stand and Charger","Convenient smartphone stand with a built-in charger. Keep your phone charged and accessible at all times.",Electronics,30,4.5,15
+3,"Designer Sunglasses","Designer sunglasses with UV protection. Stay stylish while protecting your eyes from the sun.",Accessories,50,4,20
+4,"Cotton Bed Sheets","High-quality cotton bed sheets for a comfortable night's sleep. Available in various sizes and colors.",Home & Living,45,4,0
+5,"Bluetooth Wireless Earbuds","Wireless earbuds with Bluetooth connectivity. Enjoy your favorite music without tangled cords.",Electronics,60,4.5,10
+6,"Vintage Vinyl Records","Vintage vinyl records of classic albums. Ideal for collectors and music enthusiasts.",Music & Entertainment,25,4,5
+7,"Designer Wristwatch","Luxurious designer wristwatch with a stylish metal band. Elevate your fashion game.",Accessories,150,4,10
+8,"Wooden Coffee Table","Elegant wooden coffee table for your living room. Add a touch of sophistication to your home decor.",Home & Living,120,4.5,10
+9,"Digital Camera","High-quality digital camera for capturing memorable moments. Perfect for photography enthusiasts.",Cameras & Photography,250,4,0
+10,"Wireless Computer Mouse","Ergonomic wireless computer mouse for comfortable use. Ideal for work and gaming.",Computers & Accessories,35,4,15
+11,"Crystal Chandelier","Stunning crystal chandelier for elegant lighting in your home. Create a luxurious ambiance.",Home & Living,180,4,10
+12,"Leather Wallet","Classic leather wallet with multiple card slots and a stylish design. Stay organized in style.",Accessories,40,4.5,5
+13,"Antique Wall Clock","Antique-style wall clock for a vintage touch in your home decor. Keep time in a charming way.",Home & Living,75,4,10
+14,"Elegant Dinnerware Set","Elegant dinnerware set for special occasions. Impress your guests with stylish tableware.",Home & Living,70,4.5,10
+15,"Noise-Canceling Headphones","Noise-canceling headphones for an immersive audio experience. Ideal for music lovers and travelers.",Electronics,120,4,0
+16,"Bamboo Cutting Board Set","Bamboo cutting board set for your kitchen. Durable and eco-friendly.",Kitchen & Dining,25,4.5,15
+17,"Vintage Leather Armchair","Vintage-style leather armchair for your living room. Create a cozy reading nook.",Furniture,220,4,10
+18,"Silver Pendant Necklace","Silver pendant necklace with a beautiful design. The perfect gift for a loved one.",Accessories,55,4.5,10
+19,"Ceramic Plant Pots","Ceramic plant pots for your indoor plants. Add a touch of nature to your home.",Home & Living,15,4,0
+20,"Chef's Knife Set","High-quality chef's knife set for your kitchen. Slice and dice with precision.",Kitchen & Dining,65,4,10
+21,"Digital Drawing Tablet","Digital drawing tablet for artists and graphic designers. Unleash your creativity digitally.",Electronics,90,4.5,15
+22,"Handcrafted Wooden Desk","Handcrafted wooden desk for your home office. Create a productive and stylish workspace.",Furniture,200,4,10
+23,"Designer Handbag","Designer handbag with a chic and modern design. Elevate your fashion game.",Fashion,100,4.5,5
+24,"Artificial Indoor Plant","Artificial indoor plant for low-maintenance greenery in your home. Decorate with ease.",Home & Living,30,4,20
+25,"Aromatherapy Essential Oils","Aromatherapy essential oils for a relaxing atmosphere. Enjoy the benefits of soothing scents.",Health & Wellness,20,4,10
+26,"Handmade Ceramic Vase","Handmade ceramic vase for your floral arrangements. Add a touch of art to your home decor.",Home & Living,35,4.5,10
+27,"Gourmet Coffee Beans","Gourmet coffee beans for coffee connoisseurs. Savor the rich flavors of premium coffee.",Food & Beverages,18,4,0
+28,"Vintage Wall Mirror","Vintage-style wall mirror for a touch of old-world charm in your home. Check your reflection in style.",Home & Living,60,4,5
+29,"Leather Messenger Bag","Leather messenger bag with a classic design. Carry your essentials in timeless style.",Fashion,75,4.5,10
+30,"Dining Table and Chairs Set","Dining table and chairs set for your dining room. Host elegant meals with this stylish set.",Furniture,300,4,10
+31,"Wireless Charging Pad","Wireless charging pad for convenient device charging. Say goodbye to messy cables.",Electronics,25,4.5,5
+32,"Glassware Set","Elegant glassware set for your beverages. Enjoy your drinks in beautiful glassware.",Kitchen & Dining,45,4,10
+33,"Retro Turntable","Retro-style turntable for vinyl enthusiasts. Listen to your favorite records with nostalgia.",Music & Entertainment,80,4.5,15
+34,"Solid Wood Bookshelf","Solid wood bookshelf for your home library. Organize your books in a classic way.",Furniture,110,4,10
+35,"Digital Air Fryer","Digital air fryer for healthy and quick cooking. Enjoy delicious fried food with less oil.",Kitchen & Dining,70,4.5,10
+36,"Vintage Wall Art","Vintage wall art for unique decor. Add a touch of creativity to your living space.",Art & Decor,40,4,0
+37,"Leather Desk Organizer","Leather desk organizer for a tidy workspace. Keep your office supplies in order with style.",Office & Stationery,28,4.5,15
+38,"Portable Bluetooth Speaker","Portable Bluetooth speaker for music on the go. Enjoy your favorite tunes anywhere.",Electronics,45,4,10
+39,"Silk Scarf","Elegant silk scarf with a beautiful design. Elevate your fashion with this luxurious accessory.",Accessories,35,4,5
+40,"Vintage Wall Clock","Vintage-style wall clock for classic timekeeping. Decorate your home with timeless charm.",Home & Living,55,4,10
+41,"Bamboo Bedside Table","Bamboo bedside table for your bedroom. Add a natural touch to your decor.",Furniture,65,4.5,10
+42,"Professional Chef's Apron","Professional chef's apron for your kitchen. Cook in style with this durable apron.",Kitchen & Dining,18,4.5,5
+43,"Artificial Flower Bouquet","Artificial flower bouquet for everlasting beauty. Decorate your space with these lifelike flowers.",Home & Living,22,4,10
+44,"Leather Office Chair","Leather office chair for a comfortable workspace. Stay productive in style.",Office & Stationery,95,4.5,15
+45,"Elegant Pendant Lighting","Elegant pendant lighting for your home. Create a sophisticated atmosphere with these lights.",Home & Living,75,4,10
+46,"Ceramic Dinner Plates","Ceramic dinner plates for your meals. Serve your culinary creations in style.",Kitchen & Dining,40,4,0
+47,"Antique Desk Clock","Antique-style desk clock for classic timekeeping. Add a touch of vintage charm to your desk.",Home & Living,28,4,10
+48,"Stainless Steel Cookware Set","Stainless steel cookware set for your kitchen. Cook with quality and style.",Kitchen & Dining,90,4.5,10
+49,"Designer Shoulder Bag","Designer shoulder bag with a trendy and chic design. Elevate your fashion game.",Fashion,120,4,0
+50,"Canvas Wall Art Prints","Canvas wall art prints for unique decor. Add personality to your living space.",Art & Decor,60,4.5,15
+51,"Rustic Wooden Coffee Table","Rustic wooden coffee table for a charming addition to your living room. Enjoy your coffee in style.",Furniture,95,4,10
+52,"Smart Home Security Camera","Smart home security camera for peace of mind. Keep an eye on your home with this modern device.",Home & Living,70,4.5,5
+53,"Organic Bath Towel Set","Organic bath towel set for a luxurious bathing experience. Pamper yourself with soft and eco-friendly towels.",Bath & Personal Care,50,4,10
+54,"Marble Cheese Board","Elegant marble cheese board for your culinary creations. Impress your guests with a stylish presentation.",Kitchen & Dining,40,4.5,10
+55,"Designer Sunglasses","Designer sunglasses with UV protection. Stay stylish while protecting your eyes from the sun.",Accessories,50,4,20
+56,"Cotton Bed Sheets","High-quality cotton bed sheets for a comfortable night's sleep. Available in various sizes and colors.",Home & Living,45,4,0
+57,"Bluetooth Wireless Earbuds","Wireless earbuds with Bluetooth connectivity. Enjoy your favorite music without tangled cords.",Electronics,60,4.5,10
+58,"Vintage Vinyl Records","Vintage vinyl records of classic albums. Ideal for collectors and music enthusiasts.",Music & Entertainment,25,4,5
+59,"Designer Wristwatch","Luxurious designer wristwatch with a stylish metal band. Elevate your fashion game.",Accessories,150,4,10
+60,"Wooden Coffee Table","Elegant wooden coffee table for your living room. Add a touch of sophistication to your home decor.",Home & Living,120,4.5,10
+61,"Digital Camera","High-quality digital camera for capturing memorable moments. Perfect for photography enthusiasts.",Cameras & Photography,250,4,0
+62,"Wireless Computer Mouse","Ergonomic wireless computer mouse for comfortable use. Ideal for work and gaming.",Computers & Accessories,35,4,15
+63,"Crystal Chandelier","Stunning crystal chandelier for elegant lighting in your home. Create a luxurious ambiance.",Home & Living,180,4,10
+64,"Leather Wallet","Classic leather wallet with multiple card slots and a stylish design. Stay organized in style.",Accessories,40,4.5,5
+65,"Antique Wall Clock","Antique-style wall clock for a touch of old-world charm in your home. Keep time in a charming way.",Home & Living,75,4,10
+66,"Elegant Dinnerware Set","Elegant dinnerware set for special occasions. Impress your guests with stylish tableware.",Home & Living,70,4.5,10
+67,"Noise-Canceling Headphones","Noise-canceling headphones for an immersive audio experience. Ideal for music lovers and travelers.",Electronics,120,4,0
+68,"Bamboo Cutting Board Set","Bamboo cutting board set for your kitchen. Durable and eco-friendly.",Kitchen & Dining,25,4.5,15
+69,"Vintage Leather Armchair","Vintage-style leather armchair for your living room. Create a cozy reading nook.",Furniture,220,4,10
+70,"Silver Pendant Necklace","Silver pendant necklace with a beautiful design. The perfect gift for a loved one.",Accessories,55,4.5,10
+71,"Ceramic Plant Pots","Ceramic plant pots for your indoor plants. Add a touch of nature to your home.",Home & Living,15,4,0
+72,"Chef's Knife Set","High-quality chef's knife set for your kitchen. Slice and dice with precision.",Kitchen & Dining,65,4,10
+73,"Digital Drawing Tablet","Digital drawing tablet for artists and graphic designers. Unleash your creativity digitally.",Electronics,90,4.5,15
+74,"Handcrafted Wooden Desk","Handcrafted wooden desk for your home office. Create a productive and stylish workspace.",Furniture,200,4,10
+75,"Designer Handbag","Designer handbag with a chic and modern design. Elevate your fashion game.",Fashion,100,4.5,5
+76,"Artificial Indoor Plant","Artificial indoor plant for low-maintenance greenery in your home. Decorate with ease.",Home & Living,30,4,20
+77,"Aromatherapy Essential Oils","Aromatherapy essential oils for a relaxing atmosphere. Enjoy the benefits of soothing scents.",Health & Wellness,20,4,10
+78,"Handmade Ceramic Vase","Handmade ceramic vase for your floral arrangements. Add a touch of art to your home decor.",Home & Living,35,4.5,10
+79,"Gourmet Coffee Beans","Gourmet coffee beans for coffee connoisseurs. Savor the rich flavors of premium coffee.",Food & Beverages,18,4,0
+80,"Vintage Wall Mirror","Vintage-style wall mirror for a touch of old-world charm in your home. Check your reflection in style.",Home & Living,60,4,5
+81,"Leather Messenger Bag","Leather messenger bag with a classic design. Carry your essentials in timeless style.",Fashion,75,4.5,10
+82,"Dining Table and Chairs Set","Dining table and chairs set for your dining room. Host elegant meals with this stylish set.",Furniture,300,4,10
+83,"Wireless Charging Pad","Wireless charging pad for convenient device charging. Say goodbye to messy cables.",Electronics,25,4.5,5
+84,"Glassware Set","Elegant glassware set for your beverages. Enjoy your drinks in beautiful glassware.",Kitchen & Dining,45,4,10
+85,"Retro Turntable","Retro-style turntable for vinyl enthusiasts. Listen to your favorite records with nostalgia.",Music & Entertainment,80,4.5,15
+86,"Solid Wood Bookshelf","Solid wood bookshelf for your home library. Organize your books in a classic way.",Furniture,110,4,10
+87,"Digital Air Fryer","Digital air fryer for healthy and quick cooking. Enjoy delicious fried food with less oil.",Kitchen & Dining,70,4.5,10
+88,"Vintage Wall Art","Vintage wall art for unique decor. Add a touch of creativity to your living space.",Art & Decor,40,4,0
+89,"Leather Desk Organizer","Leather desk organizer for a tidy workspace. Keep your office supplies in order with style.",Office & Stationery,28,4.5,15
+90,"Portable Bluetooth Speaker","Portable Bluetooth speaker for music on the go. Enjoy your favorite tunes anywhere.",Electronics,45,4,10
+91,"Silk Scarf","Elegant silk scarf with a beautiful design. Elevate your fashion with this luxurious accessory.",Accessories,35,4,5
+92,"Vintage Wall Clock","Vintage-style wall clock for classic timekeeping. Decorate your home with timeless charm.",Home & Living,55,4,10
+93,"Bamboo Bedside Table","Bamboo bedside table for your bedroom. Add a natural touch to your decor.",Furniture,65,4.5,10
+94,"Professional Chef's Apron","Professional chef's apron for your kitchen. Cook in style with this durable apron.",Kitchen & Dining,18,4.5,5
+95,"Artificial Flower Bouquet","Artificial flower bouquet for everlasting beauty. Decorate your space with these lifelike flowers.",Home & Living,22,4,10
+96,"Leather Office Chair","Leather office chair for a comfortable workspace. Stay productive in style.",Office & Stationery,95,4.5,15
+97,"Elegant Pendant Lighting","Elegant pendant lighting for your home. Create a sophisticated atmosphere with these lights.",Home & Living,75,4,10
+98,"Ceramic Dinner Plates","Ceramic dinner plates for your meals. Serve your culinary creations in style.",Kitchen & Dining,40,4,0
+99,"Antique Desk Clock","Antique-style desk clock for classic timekeeping. Add a touch of vintage charm to your desk.",Home & Living,28,4,10
+100,"Stainless Steel Cookware Set","Stainless steel cookware set for your kitchen. Cook with quality and style.",Kitchen & Dining,90,4.5,10
+101,"Designer Shoulder Bag","Designer shoulder bag with a trendy and chic design. Elevate your fashion game.",Fashion,120,4,0
+102,"Canvas Wall Art Prints","Canvas wall art prints for unique decor. Add personality to your living space.",Art & Decor,60,4.5,15
+103,"Rustic Wooden Coffee Table","Rustic wooden coffee table for a charming addition to your living room. Enjoy your coffee in style.",Furniture,95,4,10
+104,"Smart Home Security Camera","Smart home security camera for peace of mind. Keep an eye on your home with this modern device.",Home & Living,70,4.5,5
+105,"Organic Bath Towel Set","Organic bath towel set for a luxurious bathing experience. Pamper yourself with soft and eco-friendly towels.",Bath & Personal Care,50,4,10
+106,"Marble Cheese Board","Elegant marble cheese board for your culinary creations. Impress your guests with a stylish presentation.",Kitchen & Dining,40,4.5,10
+107,"Elegant Sunglasses","Elegant sunglasses with UV protection. Stay stylish while protecting your eyes from the sun.",Accessories,50,4,20
+108,"Cotton Bed Sheets","High-quality cotton bed sheets for a comfortable night's sleep. Available in various sizes and colors.",Home & Living,45,4,0
+109,"Bluetooth Wireless Earbuds","Wireless earbuds with Bluetooth connectivity. Enjoy your favorite music without tangled cords.",Electronics,60,4.5,10
+110,"Vintage Vinyl Records","Vintage vinyl records of classic albums. Ideal for collectors and music enthusiasts.",Music & Entertainment,25,4,5
+111,"Designer Wristwatch","Luxurious designer wristwatch with a stylish metal band. Elevate your fashion game.",Accessories,150,4,10
+112,"Wooden Coffee Table","Elegant wooden coffee table for your living room. Add a touch of sophistication to your home decor.",Home & Living,120,4.5,10
+113,"Digital Camera","High-quality digital camera for capturing memorable moments. Perfect for photography enthusiasts.",Cameras & Photography,250,4,0
+114,"Wireless Computer Mouse","Ergonomic wireless computer mouse for comfortable use. Ideal for work and gaming.",Computers & Accessories,35,4,15
+115,"Crystal Chandelier","Stunning crystal chandelier for elegant lighting in your home. Create a luxurious ambiance.",Home & Living,180,4,10
+116,"Leather Wallet","Classic leather wallet with multiple card slots and a stylish design. Stay organized in style.",Accessories,40,4.5,5
+117,"Antique Wall Clock","Antique-style wall clock for a touch of old-world charm in your home. Keep time in a charming way.",Home & Living,75,4,10
+118,"Elegant Dinnerware Set","Elegant dinnerware set for special occasions. Impress your guests with stylish tableware.",Home & Living,70,4.5,10
+119,"Noise-Canceling Headphones","Noise-canceling headphones for an immersive audio experience. Ideal for music lovers and travelers.",Electronics,120,4,0
+120,"Bamboo Cutting Board Set","Bamboo cutting board set for your kitchen. Durable and eco-friendly.",Kitchen & Dining,25,4.5,15
