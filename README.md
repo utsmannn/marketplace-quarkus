@@ -11,12 +11,19 @@ You can run your application in dev mode that enables live coding using:
 ./gradlew quarkusDev
 ```
 
+## Base Url
+
+Currently live on:
+```shell
+https://marketfake.fly.dev/
+```
+
 ## Endpoint
 
 ### Get product
 
 ```shell
-http://localhost:8080/product?page={int}&pageSize={int}&categoryId={int}&query={string}&sort={string}
+https://marketfake.fly.dev/product?page={int}&pageSize={int}&categoryId={int}&query={string}&sort={string}
 ```
 
 | query        | description                                                       | mandatory |
@@ -71,6 +78,7 @@ Response:
             ]
         },
         ...
+      ]
 }
 ```
 
