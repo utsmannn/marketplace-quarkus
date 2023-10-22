@@ -16,15 +16,16 @@ You can run your application in dev mode that enables live coding using:
 ### Get product
 
 ```shell
-http://localhost:8080/product?page={int}&pageSize={int}&categoryId={int}&query={string}
+http://localhost:8080/product?page={int}&pageSize={int}&categoryId={int}&query={string}&sort={string}
 ```
 
-| query      | description                | mandatory |
-|------------|----------------------------|-----------|
-| page       | page (default 1)           | false     |
-| pageSize   | size of page (default 10)  | false     |
-| categoryId | get product by category id | false     |
-| query      | query of search product    | false     |
+| query        | description                                                       | mandatory |
+|--------------|-------------------------------------------------------------------|-----------|
+| `page`       | page (default 1)                                                  | false     |
+| `pageSize`   | size of page (default 10)                                         | false     |
+| `categoryId` | get product by category id                                        | false     |
+| `query`      | query of search product                                           | false     |
+| `sort`       | sort of product (`rating`, `discount`, `high_price`, `low_price`) | false     |
 
 Response:
 ```json
