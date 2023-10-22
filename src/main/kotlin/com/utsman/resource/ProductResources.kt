@@ -1,8 +1,6 @@
 package com.utsman.resource
 
-import com.utsman.model.ApplicationResponse
-import com.utsman.model.Category
-import com.utsman.model.Product
+import com.utsman.model.*
 import com.utsman.repository.ProductRepository
 import jakarta.inject.Inject
 import jakarta.ws.rs.GET
@@ -23,14 +21,17 @@ class ProductResources {
         @QueryParam("page") queryPage: Int,
         @QueryParam("pageSize") querySize: Int,
         @QueryParam("categoryId") queryCategoryId: Int,
-        @QueryParam("query") query: String?
+        @QueryParam("query") query: String?,
+        @QueryParam("sort") querySort: String?
     ): ApplicationResponse<List<Product>> {
 
         val page = if (queryPage == 0) 1 else queryPage
         val size = if (querySize == 0) 10 else querySize
         val categoryId = if (queryCategoryId == 0) -1 else queryCategoryId
 
-        val products = productRepository.getProductPaging(page, size, categoryId, query.orEmpty())
+        val sort = querySort?.toSort() ?: Sort.NONE
+
+        val products = productRepository.getProductPaging(page, size, categoryId, query.orEmpty(), sort)
         return ApplicationResponse(
             status = true,
             message = "Get product success",

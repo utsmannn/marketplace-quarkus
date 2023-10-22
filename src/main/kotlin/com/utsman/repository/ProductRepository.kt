@@ -2,6 +2,7 @@ package com.utsman.repository
 
 import com.utsman.model.Category
 import com.utsman.model.Product
+import com.utsman.model.Sort
 import io.smallrye.mutiny.Uni
 import jakarta.enterprise.context.ApplicationScoped
 
@@ -66,10 +67,19 @@ class ProductRepository {
         return data
     }
 
-    fun getProductPaging(page: Int, size: Int, categoryId: Int, query: String): List<Product> {
+    fun getProductPaging(page: Int, size: Int, categoryId: Int, query: String, sort: Sort): List<Product> {
         if (!categories.map { it.id }.contains(categoryId) && categoryId > 0) throw IllegalArgumentException("Category id not found")
 
         val productSearch = products.filter { it.name.lowercase().contains(query.lowercase()) }
+            .run {
+                when (sort) {
+                    Sort.RATING -> sortedByDescending { it.rating }
+                    Sort.HIGH_PRICE -> sortedByDescending { it.price }
+                    Sort.LOW_PRICE -> sortedBy { it.price }
+                    Sort.DISCOUNT -> sortedByDescending { it.discount }
+                    Sort.NONE -> this
+                }
+            }
 
         val productCategory = if (categoryId == -1) {
             productSearch
