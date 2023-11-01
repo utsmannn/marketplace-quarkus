@@ -1,9 +1,8 @@
 package com.utsman.repository
 
-import com.utsman.model.Category
-import com.utsman.model.Product
-import com.utsman.model.Sort
-import io.smallrye.mutiny.Uni
+import com.utsman.generator.LoremIpsumGenerator
+import com.utsman.generator.NameGenerator
+import com.utsman.model.*
 import jakarta.enterprise.context.ApplicationScoped
 
 @ApplicationScoped
@@ -19,7 +18,10 @@ class ProductRepository {
         }.flatten()
         imagePath.addAll(images)
 
-        products.addAll(readProductCsv())
+        products.addAll(
+            readProductCsv()
+                .filter { it.images.isNotEmpty() }
+        )
         categories.addAll(readCategoryCsv())
 
     }
@@ -50,7 +52,7 @@ class ProductRepository {
             val rating = line[5].toDoubleOrNull() ?: 0.0
             val discount = line[6].toIntOrNull() ?: 0
             val images = getImagePath(name)
-            Product(id, name, description, category, price, rating, discount, images)
+            Product(id, name, description, category, price, rating, discount, images, emptyList())
         }
 
         return data
@@ -67,10 +69,15 @@ class ProductRepository {
         return data
     }
 
-    fun getProductPaging(page: Int, size: Int, categoryId: Int, query: String, sort: Sort): List<Product> {
-        if (!categories.map { it.id }.contains(categoryId) && categoryId > 0) throw IllegalArgumentException("Category id not found")
+    fun getProductPaging(page: Int, size: Int, categoryId: Int, query: String, sort: Sort): List<ThumbnailProduct> {
+        if (!categories.map { it.id }
+                .contains(categoryId) && categoryId > 0) throw IllegalArgumentException("Category id not found")
 
-        val productSearch = products.filter { it.name.lowercase().contains(query.lowercase()) }
+        val productSearch = products
+            .map {
+                ThumbnailProduct.fromProductRaw(it)
+            }
+            .filter { it.name.lowercase().contains(query.lowercase()) }
             .run {
                 when (sort) {
                     Sort.RATING -> sortedByDescending { it.rating }
@@ -95,6 +102,21 @@ class ProductRepository {
             e.printStackTrace()
             emptyList()
         }
+    }
+
+    fun getProductById(productId: Int): Product {
+        val product = products.find { it.id == productId } ?: throw IllegalArgumentException("Product not found")
+        val newDescription = "${product.description}. ${LoremIpsumGenerator.generateFromString(product.name, 15 * 4)}"
+        val userReview = NameGenerator.generateNameFromString(product.name, product.name.length)
+            .map {
+                val identifier = "$it-${product.name}"
+                val review = LoremIpsumGenerator.generateFromString(identifier, identifier.length/2)
+                UserReview(it, review)
+            }
+        return product.copy(
+            description = newDescription,
+            userReview = userReview
+        )
     }
 
     final fun getProductCategory(): List<Category> {

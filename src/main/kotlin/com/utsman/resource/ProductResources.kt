@@ -5,6 +5,7 @@ import com.utsman.repository.ProductRepository
 import jakarta.inject.Inject
 import jakarta.ws.rs.GET
 import jakarta.ws.rs.Path
+import jakarta.ws.rs.PathParam
 import jakarta.ws.rs.Produces
 import jakarta.ws.rs.QueryParam
 import jakarta.ws.rs.core.MediaType
@@ -23,7 +24,7 @@ class ProductResources {
         @QueryParam("categoryId") queryCategoryId: Int,
         @QueryParam("query") query: String?,
         @QueryParam("sort") querySort: String?
-    ): ApplicationResponse<List<Product>> {
+    ): ApplicationResponse<List<ThumbnailProduct>> {
 
         val page = if (queryPage == 0) 1 else queryPage
         val size = if (querySize == 0) 10 else querySize
@@ -36,6 +37,20 @@ class ProductResources {
             status = true,
             message = "Get product success",
             data = products
+        )
+    }
+
+    @GET
+    @Path("{id}")
+    @Produces(MediaType.APPLICATION_JSON)
+    fun getProductId(
+        @PathParam("id") productId: Int
+    ): ApplicationResponse<Product> {
+        val product = productRepository.getProductById(productId)
+        return ApplicationResponse(
+            status = true,
+            message = "Get product success",
+            data = product
         )
     }
 

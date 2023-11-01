@@ -8,5 +8,6 @@ data class Product(
     val price: Double,
     val rating: Double,
     val discount: Int,
-    val images: List<String>
+    val images: List<String>,
+    val userReview: List<UserReview>
 )
